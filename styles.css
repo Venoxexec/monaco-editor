@@ -27,14 +27,15 @@ body {
 #container {
     display: flex;
     flex-grow: 1;
+    position: relative;
 }
 
 .tab-content {
     flex-grow: 1;
     display: none;
+    height: 100%;
 }
 
 .tab-content.active {
     display: block;
-    height: 100%;
 }
