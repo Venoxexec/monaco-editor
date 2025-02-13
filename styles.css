@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#tabs {
+    display: flex;
+    background-color: #333;
+}
+
+#tabs button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+#tabs button:hover {
+    background-color: #111;
+}
+
+#container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.tab-content {
+    flex-grow: 1;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+    height: 100%;
+}
